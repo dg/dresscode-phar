@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+// the phar runs on its own copy of DressCode; the bootstrap of this package steps aside
+define('__DRESSCODE_RUNNING__', true);
+
+require __DIR__ . '/../dresscode.phar';

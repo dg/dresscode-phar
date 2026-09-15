@@ -1,0 +1,9 @@
+.gitattributes  export-ignore
+.gitignore      export-ignore
+AGENTS.md       export-ignore
+
+*               text=auto
+*.php           diff=php
+bin/dresscode   text eol=lf
+*.phar          binary
+*.phar.asc      text eol=lf
